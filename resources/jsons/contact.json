@@ -1,0 +1,29 @@
+{
+    "contacts":
+    [
+        {
+            "nom":"Linkedin",
+            "logo":"resources/contact/Linkedin.svg",
+            "lien":"https://www.linkedin.com/in/antoine-zurcher-b69809201",
+            "text":"Antoine Zurcher"
+        },
+        {
+            "nom":"GitHub",
+            "logo":"resources/contact/GitHub.svg",
+            "lien":"https://github.com/Antoine-Zurcher-Git",
+            "text":"Antoine-Zurcher-Git"
+        },
+        {
+            "nom":"Mail",
+            "logo":"resources/contact/Mail.svg",
+            "lien":"",
+            "text":"antoine.zurcher@gmail.com"
+        },
+        {
+            "nom":"Mail",
+            "logo":"resources/contact/Mail.svg",
+            "lien":"",
+            "text":"antoine.zurcher@gmail.com"
+        }
+    ]
+}
