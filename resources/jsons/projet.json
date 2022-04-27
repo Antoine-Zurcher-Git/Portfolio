@@ -49,6 +49,18 @@
             "description": "Ce dépôt regroupe un ensemble de projets autour de l'analyse numérique : Simulation par la méthode des différences finies, Simulation par la méthode des éléments finis, Optimisation numérique",
             "illustration": "resources/projet/analyse_numerique.gif",
             "lien":"https://github.com/Antoine-Zurcher-Git/Analyse_Numerique"
+        },{
+            "titre": "EChessL",
+            "date":"2021",
+            "description":" Projet scolaire, Jeux d'échec integrant une intelligence artificielle permettant de jouer contre",
+            "illustration":"resources/projet/EChessL.png",
+            "lien":"https://gitlab.ec-lyon.fr/azurcher/echessl"
+        },{
+            "titre":"Déformation Structure",
+            "date":"2021",
+            "description":"Projet scolaire, Permet de déterminer le déplacement d'une structure soumise à des chargements, à l'aide de la méthode des éléments finis",
+            "illustration":"resources/projet/methodeDesDeplacements.png",
+            "lien":"https://github.com/s-fl0res/calcul_deplacements"
         }
     ]
 }

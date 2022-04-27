@@ -93,6 +93,7 @@ body
 	--white: rgb(250, 250, 240);
 	--fade_white: rgb(200, 200, 180);
 	--dark_blue: #0c2040;
+	--dark_blue_transparent:#0c2040a9;
 	--fade_dark_blue: rgba(16, 29, 48, 0.9);
 	--black_title: #2b3954;
 	--soft_black: #787d86;
@@ -102,5 +103,6 @@ body
 	--purple: rgb(52, 52, 102);
     --yellow: #EFD807;
 	--light_yellow: rgb(250, 250, 210);
+	--black: rgb(15, 17, 30);
     
 }

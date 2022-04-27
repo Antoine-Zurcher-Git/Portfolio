@@ -12,6 +12,7 @@ window.onload = () =>
 	document.documentElement.scrollLeft = 0;
 
 	home_events();
+	about_events();
 	projet_events();
 	//projects_events();
 

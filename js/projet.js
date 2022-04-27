@@ -15,7 +15,7 @@ function projet_events(){
             document.querySelector("#projet_section .emplacement_projet").innerHTML += `
             <div class="unite_projet">
                 <div class="projet_titre">
-                    <a class="link" href="${projet.lien}">${projet.titre} </a>
+                    <a class="link" href="${projet.lien}" target="_blank">${projet.titre} </a>
                     <p class="projet_date"> - ${projet.date}</p>
                 </div>
                 <p class="projet_description">${projet.description}</p>

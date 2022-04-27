@@ -5,25 +5,29 @@
             "nom":"Linkedin",
             "logo":"resources/contact/Linkedin.svg",
             "lien":"https://www.linkedin.com/in/antoine-zurcher-b69809201",
-            "text":"Antoine Zurcher"
+            "text":"Antoine Zurcher",
+            "clicable":true
         },
         {
             "nom":"GitHub",
             "logo":"resources/contact/GitHub.svg",
             "lien":"https://github.com/Antoine-Zurcher-Git",
-            "text":"Antoine-Zurcher-Git"
+            "text":"Antoine-Zurcher-Git",
+            "clicable":true
         },
         {
             "nom":"Mail",
             "logo":"resources/contact/Mail.svg",
-            "lien":"",
-            "text":"antoine.zurcher@gmail.com"
+            "lien":"mailto: antoine.zurcher@gmail.com",
+            "text":"antoine.zurcher@gmail.com",
+            "clicable":false
         },
         {
-            "nom":"Mail",
-            "logo":"resources/contact/Mail.svg",
-            "lien":"",
-            "text":"antoine.zurcher@gmail.com"
+            "nom":"CV",
+            "logo":"resources/contact/CV.svg",
+            "lien":"resources/contact/testCV.txt",
+            "text":"Curriculum Vitae",
+            "clicable":true
         }
     ]
 }

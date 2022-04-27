@@ -1,0 +1,7 @@
+#experience_section .section_title{
+    color: var(--black_title);
+}
+
+#experience_section{
+    background-color: var(--light_yellow);
+}

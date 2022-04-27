@@ -21,11 +21,17 @@
     margin: 10px;
     background-color: var(--dark_blue);
     border-radius: 10px;
-    /* border: solid 2px;
-    border-color: var(--soft_yellow); */
-    -webkit-filter: drop-shadow(0px 0px 3px var(--black_title));
-	filter: drop-shadow(0px 0px 3px var(--black_title));
-    padding: 10px;
+    border: solid 3px;
+    border-color: var(--dark_blue);
+    -webkit-filter: drop-shadow(0px 0px 2px var(--black_title));
+	filter: drop-shadow(0px 0px 2px var(--black_title));
+}
+
+#projet_section .unite_projet:hover{
+    -webkit-filter: drop-shadow(0px 0px 7px var(--black_title));
+	filter: drop-shadow(0px 0px 7px var(--black_title));
+    border: solid 3px;
+    border-color: var(--soft_yellow);
 }
 
 
@@ -58,8 +64,10 @@
 }
 
 #projet_section .projet_date{
+    display: flex;
     color: var(--fade_white);
     font-size:15px;
+    /* width:43px; */
 }
 
 #projet_section .projet_illustration{
