@@ -1,0 +1,106 @@
+@font-face
+{
+	font-family: spectral_bold;
+	src: url("../resources/fonts/Spectral/Spectral-Bold.ttf");
+}
+
+@font-face
+{
+	font-family: spectral_bold_italic;
+	src: url("../resources/fonts/Spectral/Spectral-BoldItalic.ttf");
+}
+
+@font-face
+{
+	font-family: spectral_extra_bold;
+	src: url("../resources/fonts/Spectral/Spectral-ExtraBold.ttf");
+}
+
+@font-face
+{
+	font-family: spectral_extra_bold_italic;
+	src: url("../resources/fonts/Spectral/Spectral-ExtraBoldItalic.ttf");
+}
+
+@font-face
+{
+	font-family: spectral_extra_light;
+	src: url("../resources/fonts/Spectral/Spectral-ExtraLight.ttf");
+}
+
+@font-face
+{
+	font-family: spectral_extra_light_italic;
+	src: url("../resources/fonts/Spectral/Spectral-ExtraLightItalic.ttf");
+}
+
+@font-face
+{
+	font-family: spectral_italic;
+	src: url("../resources/fonts/Spectral/Spectral-Italic.ttf");
+}
+
+@font-face
+{
+	font-family: spectral_light;
+	src: url("../resources/fonts/Spectral/Spectral-Light.ttf");
+}
+
+@font-face
+{
+	font-family: spectral_light_italic;
+	src: url("../resources/fonts/Spectral/Spectral-LightItalic.ttf");
+}
+
+@font-face
+{
+	font-family: spectral_medium;
+	src: url("../resources/fonts/Spectral/Spectral-Medium.ttf");
+}
+
+@font-face
+{
+	font-family: spectral_medium_italic;
+	src: url("../resources/fonts/Spectral/Spectral-MediumItalic.ttf");
+}
+
+@font-face
+{
+	font-family: spectral_regular;
+	src: url("../resources/fonts/Spectral/Spectral-Regular.ttf");
+}
+
+@font-face
+{
+	font-family: spectral_semi_bold;
+	src: url("../resources/fonts/Spectral/Spectral-SemiBold.ttf");
+}
+
+@font-face
+{
+	font-family: spectral_semi_bold_italic;
+	src: url("../resources/fonts/Spectral/Spectral-SemiBoldItalic.ttf");
+}
+
+
+body
+{
+    /* 1296d9 */
+	--light_blue: rgb(13, 169, 229);
+	--blue: #225CB5;
+	--fade_light_blue: rgba(13, 169, 229, 0.15);
+	--light_gray: rgb(191, 191, 141);
+	--white: rgb(250, 250, 240);
+	--fade_white: rgb(200, 200, 180);
+	--dark_blue: #0c2040;
+	--fade_dark_blue: rgba(16, 29, 48, 0.9);
+	--black_title: #2b3954;
+	--soft_black: #787d86;
+	--soft_yellow:#fff493;
+	--black_text: #425466;
+	--dark_purple: rgb(41, 41, 85);
+	--purple: rgb(52, 52, 102);
+    --yellow: #EFD807;
+	--light_yellow: rgb(250, 250, 210);
+    
+}

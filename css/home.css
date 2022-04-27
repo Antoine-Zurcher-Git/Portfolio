@@ -1,0 +1,82 @@
+
+
+#particles
+{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: all;
+	-webkit-mask-image: radial-gradient(ellipse at center, transparent 100px, black 700px);
+	mask-image: radial-gradient(ellipse at center, transparent 100px, black 700px);
+	/* background-color: var(--light_blue); */
+
+}
+#home_section
+{
+	position: relative;
+	z-index: 1;
+	height: 100vh;
+	width: 100vw;
+	max-width: 100%;
+	background-color: var(--dark_blue);
+}
+
+#home_section .content
+{
+	pointer-events: none;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	margin-top: -10vh;
+}
+
+#home_section .hi
+{
+	pointer-events: all;
+	font-family: spectral_regular;
+	font-size: 16px;
+	color: var(--fade_white);
+	margin: 0 auto;
+	padding-bottom: 1vh;
+}
+
+
+#home_section .name
+{
+	pointer-events: all;
+	font-family: spectral_bold;
+	font-size: clamp(36px, 7vw, 72px);
+	color: var(--white);
+	margin-top: 25px;
+	margin: 0 auto;
+}
+
+#home_section .title
+{
+	pointer-events: all;
+	font-family: spectral_bold;
+	font-size: clamp(36px, 7vw, 72px);
+	color: var(--white);
+	margin: 0 auto;
+}
+
+#home_section .bio
+{
+	pointer-events: all;
+	font-family: spectral_regular;
+	max-width: 50vw;
+	font-size: clamp(10px, 4vw, 20px);
+	color: var(--fade_white);
+	padding-top: 3vh;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#home_section .home_button
+{
+	margin: 0 auto;
+	margin-top: 30px;
+}

@@ -1,0 +1,54 @@
+{
+    "projet":
+    [
+        {
+            "titre": "Depol",
+            "date": "2021",
+            "description": "Ce projet a pour but de simuler la diffusion d'un nuage de polluant dans une situation avec du vent",
+            "illustration": "resources/projet/depol.gif",
+            "lien":"https://github.com/Antoine-Zurcher-Git/Depol"
+        },
+        {
+            "titre": "Fractale",
+            "date": "2019",
+            "description": "Ce projet permet de réaliser et explorer des ensembles de Mandelbrot et ensembles de Julia",
+            "illustration": "resources/projet/fractale.gif",
+            "lien":"https://github.com/Antoine-Zurcher-Git/Fractale-Mandelbrot"
+        },
+        {
+            "titre": "Clone Mario",
+            "date": "2019",
+            "description": "Jeux de platforme 2D, integrant aussi un générateur de carte",
+            "illustration": "resources/projet/clone_mario.png",
+            "lien":"https://github.com/Antoine-Zurcher-Git/Clone_Mario"
+        },
+        {
+            "titre": "Loups et Moutons",
+            "date": "2020",
+            "description": "Simulation d'une population de plante, de monton et de loups",
+            "illustration": "resources/projet/loups_et_moutons.png",
+            "lien":"https://github.com/Antoine-Zurcher-Git/Loups_et_Moutons"
+        },
+        {
+            "titre": "MiniProjets Python",
+            "date": "2019",
+            "description": "Ce dépôt regroupe un ensemble de projets réalisé en Python : Jeu du Pendu, Base de Données, Aventure textuelle",
+            "illustration": "resources/projet/miniprojetpython.png",
+            "lien":"https://github.com/Antoine-Zurcher-Git/MiniProjets_Python"
+        },
+        {
+            "titre": "MiniProjets Java",
+            "date": "2019",
+            "description": "Ce dépôt regroupe un ensemble de projets réalisé en Java ou en Processing : Collection de Mini Jeux, Combat de civilisations, Jeux de l'araignée",
+            "illustration": "resources/projet/miniprojetjava.png",
+            "lien":"https://github.com/Antoine-Zurcher-Git/MiniProjets_Java"
+        },
+        {
+            "titre": "Analyse Numerique",
+            "date": "2019",
+            "description": "Ce dépôt regroupe un ensemble de projets autour de l'analyse numérique : Simulation par la méthode des différences finies, Simulation par la méthode des éléments finis, Optimisation numérique",
+            "illustration": "resources/projet/analyse_numerique.gif",
+            "lien":"https://github.com/Antoine-Zurcher-Git/Analyse_Numerique"
+        }
+    ]
+}
