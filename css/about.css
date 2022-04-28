@@ -55,6 +55,7 @@
 	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
+	
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -76,6 +77,10 @@
 #about_section .about_photo{
 	width:300px;
 }
+
+
+
+
 
 
 

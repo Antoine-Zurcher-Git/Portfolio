@@ -19,59 +19,67 @@ PORT = 8080
 #
 class RequestHandler(http.server.SimpleHTTPRequestHandler):
 
-  # sous-répertoire racine des documents statiques
-  static_dir = ''
+  static_dir=''
 
-  #
-  # On surcharge la méthode qui traite les requêtes GET
-  #
-  # def do_GET(self):
+  def do_GET(self):
 
-  #   # On récupère les étapes du chemin d'accès
-  #   self.send_static()
+    self.init_params()
+    if self.path_info[0] == 'cv':
+      self.send_cv()
+    else:
+      self.send_static()
+  
+  def do_HEAD(self):
+    self.send_static()
 
-  #
-  # On surcharge la méthode qui traite les requêtes HEAD
-  #
-  # def do_HEAD(self):
-  #   self.send_static()
+  def send_static(self):
 
-  #
-  # On envoie le document statique demandé
-  #
-  # def send_static(self):
+    self.path = self.static_dir+self.path
 
-  #   # on modifie le chemin d'accès en insérant un répertoire préfixe
-  #   self.path = self.static_dir + self.path
+    if (self.command=='HEAD'):
+        http.server.SimpleHTTPRequestHandler.do_HEAD(self)
+    else:
+        http.server.SimpleHTTPRequestHandler.do_GET(self)
 
-  #   # on appelle la méthode parent (do_GET ou do_HEAD)
-  #   # à partir du verbe HTTP (GET ou HEAD)
-  #   if (self.command=='HEAD'):
-  #       http.server.SimpleHTTPRequestHandler.do_HEAD(self)
-  #   else:
-  #       http.server.SimpleHTTPRequestHandler.do_GET(self)
-      
-    
-  #
-  # On envoie les entêtes et le corps fourni
-  #
-  # def send(self,body,headers=[]):
+  def init_params(self):
+    # analyse de l'adresse
+    info = urlparse(self.path)
+    self.path_info = [unquote(v) for v in info.path.split('/')[1:]]  # info.path.split('/')[1:]
+    self.query_string = info.query
+    self.params = parse_qs(info.query)
 
-  #   # on encode la chaine de caractères à envoyer
-  #   encoded = bytes(body, 'UTF-8')
-
-  #   # on envoie la ligne de statut
-  #   self.send_response(200)
-
-  #   # on envoie les lignes d'entête et la ligne vide
-  #   [self.send_header(*t) for t in headers]
-  #   self.send_header('Content-Length',int(len(encoded)))
-  #   self.end_headers()
-
-  #   # on envoie le corps de la réponse
-  #   self.wfile.write(encoded)
-
+    # récupération du corps
+    length = self.headers.get('Content-Length')
+    ctype = self.headers.get('Content-Type')
+    if length:
+      self.body = str(self.rfile.read(int(length)),'utf-8')
+      if ctype == 'application/x-www-form-urlencoded' : 
+        self.params = parse_qs(self.body)
+    else:
+      self.body = ''
+   
+    # traces
+    # print('info_path =',self.path_info)
+    # print('body =',length,ctype,self.body)
+    # print('params =', self.params)
  
+  def send_cv(self):
+    headers = [('Content-Type','text/html;charset=utf-8')]
+    html = '<!DOCTYPE html><title>{}</title><link rel="stylesheet" type="text/css" href="css/style.css"/><meta charset="utf-8">{}' \
+      .format(self.path_info[0],'<embed style="width:100% height: 100%; margin:0;" type="application/pdf" src="cv.pdf" background-color="4283586137" javascript="allow" full-frame pdf-viewer-update-enabled>')#<iframe class="pdf" src="resources/contact/CV_Antoine_Zurcher.pdf">
+    self.send(html,headers)
+
+  def send(self,body,headers=[]):
+    encoded = bytes(body, 'UTF-8')
+
+    self.send_response(200)
+
+    [self.send_header(*t) for t in headers]
+    self.send_header('Content-Length',int(len(encoded)))
+    self.end_headers()
+
+    self.wfile.write(encoded)
+  
 #
 # Instanciation et lancement du serveur
 #

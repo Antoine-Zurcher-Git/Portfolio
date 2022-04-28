@@ -25,7 +25,7 @@
         {
             "nom":"CV",
             "logo":"resources/contact/CV.svg",
-            "lien":"resources/contact/testCV.txt",
+            "lien":"cv.pdf",
             "text":"Curriculum Vitae",
             "clicable":true
         }

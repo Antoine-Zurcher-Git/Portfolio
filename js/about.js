@@ -19,7 +19,7 @@ function about_events(){
             }
             document.querySelector("#about_section .about_contact").innerHTML += `
 
-            <${clic} href="${contact.lien}" class="unite_contact ${cliclass}">
+            <${clic} href="${contact.lien}" target="_blank" class="unite_contact ${cliclass}">
                 <div class="contact_logo">
                     <img class="contact_img" src="${contact.logo}" alt="${contact.nom}">
                 </div>
