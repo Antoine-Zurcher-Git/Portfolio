@@ -11,20 +11,19 @@ function side_events(){
         
 
         for (let contact of data.contacts){
-            var clic = "div";
-            var cliclass = "inclicable";
-            if(contact.clicable){
-                clic = "a";
-                var cliclass = "";
-            }
+            // var clic = "div";
+            // var cliclass = "inclicable";
+            // if(contact.clicable){
+            //     clic = "a";
+            //     var cliclass = "";
+            // }
             document.querySelector(".emplacement_contact_side").innerHTML += `
 
-            <li><${clic} href="${contact.lien}" class="unite_contact_side ${cliclass}">
+            <li><a href="${contact.lien}" class="unite_contact_side">
                 <div class="contact_side_logo">
                     <img class="contact_side_img" src="${contact.logo}" alt="${contact.nom}">
                 </div>
-                
-            </${clic}></li>
+            </a></li>
             `;
 
             // <div class="contact_side_texte">

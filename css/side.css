@@ -9,3 +9,13 @@
 .contact_side_img{
 	width: 30px;
 }
+
+.emplacement_contact_side{
+    margin:30px;
+    list-style-type:none;
+    
+}
+
+.contact_side_logo{
+    margin-bottom:20px;
+}
