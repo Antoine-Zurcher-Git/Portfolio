@@ -2,65 +2,72 @@
     "projet":
     [
         {
-            "titre": "Depol",
-            "date": "2021",
-            "description": "Ce projet a pour but de simuler la diffusion d'un nuage de polluant dans une situation avec du vent",
-            "illustration": "resources/projet/depol.gif",
-            "lien":"https://github.com/Antoine-Zurcher-Git/Depol"
+            "titre":"Portfolio",
+            "date":"2022",
+            "description":"Site internet one-page présentant mes projets informatiques, réalisé en HTML, CSS et JavaScript",
+            "illustration":"",
+            "lien":"https://github.com/Antoine-Zurcher-Git/Portfolio"
         },
         {
             "titre": "Fractale",
-            "date": "2019",
+            "date": "2022",
             "description": "Ce projet permet de réaliser et explorer des ensembles de Mandelbrot et ensembles de Julia",
             "illustration": "resources/projet/fractale.gif",
             "lien":"https://github.com/Antoine-Zurcher-Git/Fractale-Mandelbrot"
         },
         {
-            "titre": "Clone Mario",
-            "date": "2019",
-            "description": "Jeux de platforme 2D, integrant aussi un générateur de carte",
-            "illustration": "resources/projet/clone_mario.png",
-            "lien":"https://github.com/Antoine-Zurcher-Git/Clone_Mario"
-        },
-        {
-            "titre": "Loups et Moutons",
-            "date": "2020",
-            "description": "Simulation d'une population de plante, de monton et de loups",
-            "illustration": "resources/projet/loups_et_moutons.png",
-            "lien":"https://github.com/Antoine-Zurcher-Git/Loups_et_Moutons"
-        },
-        {
-            "titre": "MiniProjets Python",
-            "date": "2019",
-            "description": "Ce dépôt regroupe un ensemble de projets réalisé en Python : Jeu du Pendu, Base de Données, Aventure textuelle",
-            "illustration": "resources/projet/miniprojetpython.png",
-            "lien":"https://github.com/Antoine-Zurcher-Git/MiniProjets_Python"
-        },
-        {
-            "titre": "MiniProjets Java",
-            "date": "2019",
-            "description": "Ce dépôt regroupe un ensemble de projets réalisé en Java ou en Processing : Collection de Mini Jeux, Combat de civilisations, Jeux de l'araignée",
-            "illustration": "resources/projet/miniprojetjava.png",
-            "lien":"https://github.com/Antoine-Zurcher-Git/MiniProjets_Java"
-        },
-        {
-            "titre": "Analyse Numerique",
-            "date": "2019",
-            "description": "Ce dépôt regroupe un ensemble de projets autour de l'analyse numérique : Simulation par la méthode des différences finies, Simulation par la méthode des éléments finis, Optimisation numérique",
-            "illustration": "resources/projet/analyse_numerique.gif",
-            "lien":"https://github.com/Antoine-Zurcher-Git/Analyse_Numerique"
-        },{
-            "titre": "EChessL",
-            "date":"2021",
-            "description":" Projet scolaire, Jeux d'échec integrant une intelligence artificielle permettant de jouer contre",
-            "illustration":"resources/projet/EChessL.png",
-            "lien":"https://gitlab.ec-lyon.fr/azurcher/echessl"
+            "titre": "Dépollution",
+            "date": "2021",
+            "description": "Ce projet a pour but de simuler la diffusion d'un nuage de polluant dans une situation avec du vent",
+            "illustration": "resources/projet/depol.gif",
+            "lien":"https://github.com/Antoine-Zurcher-Git/Depol"
         },{
             "titre":"Déformation Structure",
             "date":"2021",
             "description":"Projet scolaire, Permet de déterminer le déplacement d'une structure soumise à des chargements, à l'aide de la méthode des éléments finis",
             "illustration":"resources/projet/methodeDesDeplacements.png",
             "lien":"https://github.com/s-fl0res/calcul_deplacements"
+        },
+        {
+            "titre": "Analyse Numerique",
+            "date": "2019 - 2021",
+            "description": "Ce dépôt regroupe un ensemble de projets autour de l'analyse numérique : Simulation par la méthode des différences finies, Simulation par la méthode des éléments finis, Optimisation numérique",
+            "illustration": "resources/projet/analyse_numerique.gif",
+            "lien":"https://github.com/Antoine-Zurcher-Git/Analyse_Numerique"
+        },
+        {
+            "titre": "MiniProjets Python",
+            "date": "2018 - 2021",
+            "description": "Ce dépôt regroupe un ensemble de projets réalisé en Python : Jeu du Pendu, Base de Données, Aventure textuelle",
+            "illustration": "resources/projet/miniprojetpython.png",
+            "lien":"https://github.com/Antoine-Zurcher-Git/MiniProjets_Python"
+        },{
+            "titre": "EChessL",
+            "date":"2020",
+            "description":" Projet scolaire, Jeux d'échec integrant une intelligence artificielle permettant de jouer contre",
+            "illustration":"resources/projet/EChessL.png",
+            "lien":"https://gitlab.ec-lyon.fr/azurcher/echessl"
+        },
+        {
+            "titre": "MiniProjets Java",
+            "date": "2016-2020",
+            "description": "Ce dépôt regroupe un ensemble de projets réalisé en Java ou en Processing : Collection de Mini Jeux, Combat de civilisations, Jeu de l'araignée",
+            "illustration": "resources/projet/miniprojetjava.png",
+            "lien":"https://github.com/Antoine-Zurcher-Git/MiniProjets_Java"
+        },
+        {
+            "titre": "Loups et Moutons",
+            "date": "2018",
+            "description": "Simulation d'une population de plante, de monton et de loups",
+            "illustration": "resources/projet/loups_et_moutons.png",
+            "lien":"https://github.com/Antoine-Zurcher-Git/Loups_et_Moutons"
+        },
+        {
+            "titre": "Clone Mario",
+            "date": "2016",
+            "description": "Jeu de platforme 2D, integrant aussi un générateur de carte",
+            "illustration": "resources/projet/clone_mario.png",
+            "lien":"https://github.com/Antoine-Zurcher-Git/Clone_Mario"
         }
     ]
 }

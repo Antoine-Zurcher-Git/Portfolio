@@ -1,9 +1,17 @@
 
 .side_elements{
+    background-color:var(--soft_yellow);
     width: 40px;
     position: fixed;
-    bottom: 0px
-    
+    bottom: 0px;
+    margin-left:20px;
+    padding-bottom:0px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:15px;
+    border-radius: 10px 10px 0px 0px;
+    border: solid 2px;
+	border-color: var(--black_title) var(--black_title) var(--soft_yellow) var(--black_title);
 }
 
 .contact_side_img{
@@ -11,9 +19,11 @@
 }
 
 .emplacement_contact_side{
-    margin:30px;
-    list-style-type:none;
     
+    list-style-type:none;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .contact_side_logo{

@@ -19,9 +19,9 @@ function projet_events(){
                     <p class="projet_date"> - ${projet.date}</p>
                 </div>
                 <p class="projet_description">${projet.description}</p>
-                <div class="projet_illustration">
+                <a class="projet_illustration" href="${projet.lien}" target="_blank">
                     <img class="projet_image" src="${projet.illustration}"/>
-                </div>
+                </a>
                 
             </div>
             `;

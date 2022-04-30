@@ -101,13 +101,14 @@
 }
 
 #about_section .contact_img{
-	width: 40px;
+	/* width: 40px; */
+	height:40px;
 }
 
 #about_section .about_contact{
 	display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-	grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
+	grid-template-rows: repeat(auto-fill, minmax(70px, 1fr));
     width : 100%;
 	padding-top:30px;
 }
@@ -125,6 +126,7 @@
 	text-decoration: none;
 	border: solid 2px;
 	border-color: var(--black_title);
+	
 }
 
 #about_section .inclicable{
