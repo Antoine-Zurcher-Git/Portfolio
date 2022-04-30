@@ -29,9 +29,21 @@
     margin: 0 auto */
     display: flex;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
-    gap: 10%;
+    gap: 10% 10%;
+	justify-content: space-between;
+	flex-direction: row;
+	
+}
+
+@media screen and (max-width: 800px)
+{
+	#about_section .about_content
+	{
+		flex-direction: column;
+		justify-content: center;
+	}
 }
 
 
@@ -74,14 +86,15 @@
 }
 
 #about_section .about_photo{
-	width:100%;
+
+	width:clamp(200px,100%,800px);
 	border: solid 5px;
 	border-color: var(--black_title);
 	border-radius: 10px;
 }
 
 #about_section .about_text {
-	width:70%;
+	width:60%;
 }
 
 
@@ -112,14 +125,21 @@
 
 #about_section .about_contact{
 	display: grid;
-    /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-	grid-template-rows: repeat(auto-fill, minmax(70px, 1fr)); */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-template-rows: repeat(auto-fill, minmax(70px, 1fr));
 	/* grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr; */
-	grid-template-columns: min-content auto;
+	/* grid-template-columns: min-content auto; */
     width : 100%;
 	padding-top:30px;
 }
+
+/* @media screen and (max-width: 800px)
+{
+	#about_section .about_contact{
+	}
+} */
+
 
 
 #about_section .unite_contact{
