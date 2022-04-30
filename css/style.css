@@ -225,6 +225,23 @@ ol
 	
 }
 
+@media screen and (max-width: 800px){
+
+	.section_title_line{
+		border-bottom: 1px solid rgba(0, 0, 0, 0); 
+	}
+
+	.section_title
+	{
+		background-color: var(--light_yellow);
+		font-family: spectral_extra_bold;
+		font-size: 50px;
+		text-align: center;
+		padding:0 0px; 
+	}
+
+}
+
 .pdf{
 	width:100%;
 	height:100%;

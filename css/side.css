@@ -14,6 +14,12 @@
 	border-color: var(--black_title) var(--black_title) var(--soft_yellow) var(--black_title);
 }
 
+@media screen and (max-width: 800px){
+    .side_elements{
+        margin-left:5px;
+    }
+}
+
 .contact_side_img{
 	width: 30px;
 }
