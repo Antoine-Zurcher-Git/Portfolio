@@ -4,6 +4,7 @@
     width: 40px;
     position: fixed;
     bottom: 0px;
+    left: 0px;
     margin-left:20px;
     padding-bottom:0px;
     padding-left:10px;
@@ -17,6 +18,11 @@
 @media screen and (max-width: 800px){
     .side_elements{
         margin-left:5px;
+        bottom: auto;
+        top: 50px;
+        border-radius: 0px 0px 10px 10px;
+        border-color: var(--soft_yellow) var(--black_title) var(--black_title) var(--black_title);
+
     }
 }
 

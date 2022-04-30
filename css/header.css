@@ -75,6 +75,18 @@
 	height: 30px;
 }
 
+@media screen and (max-width: 400px){
+	#header .logo a
+	{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		pointer-events: all;
+		width: 20px;
+		height: 20px;
+	}
+}
+
 #header .logo img
 {
 	display: -webkit-box;
@@ -119,4 +131,10 @@
 	text-decoration: none;
 }
 
+
+@media screen and (max-width: 400px){
+	#header .menu a{
+		font-size: 10px;
+	}
+}
 

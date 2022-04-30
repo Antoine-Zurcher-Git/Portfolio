@@ -31,6 +31,7 @@
 	-ms-flex-align: start;
 	align-items: flex-start;
 	margin-top: -10vh;
+	text-align: justify;
 }
 
 #home_section .hi
