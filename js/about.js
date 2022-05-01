@@ -18,7 +18,7 @@ function about_events(){
                 var cliclass = "";
             }
             document.querySelector("#about_section .about_contact").innerHTML += `
-            <button class="contact_button">
+            
             <${clic} href="${contact.lien}" target="_blank" class="unite_contact ${cliclass}">
                 
                 <div class="contact_logo">
@@ -29,7 +29,7 @@ function about_events(){
                 </div>
                 
             </${clic}>
-            </button>
+            
             `;
 
         }

@@ -19,6 +19,10 @@ body
 	width: 100%;
 }
 
+:lang(en){
+	visibility: hidden;
+}
+
 ol
 {
 	list-style: none;

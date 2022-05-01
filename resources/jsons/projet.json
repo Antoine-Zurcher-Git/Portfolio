@@ -5,7 +5,7 @@
             "titre":"Portfolio",
             "date":"2022",
             "description":"Site internet one-page présentant mes projets informatiques, réalisé en HTML, CSS et JavaScript",
-            "illustration":"",
+            "illustration":"resources/projet/portfolio.png",
             "lien":"https://github.com/Antoine-Zurcher-Git/Portfolio"
         },
         {
