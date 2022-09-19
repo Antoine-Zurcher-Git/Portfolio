@@ -31,7 +31,7 @@
     align-items: center;
     width: 100%;
     margin: 0 auto;
-    gap: 10% 10%;
+    gap: 10% 5%;
 	justify-content: space-between;
 	flex-direction: row;
 	
@@ -101,7 +101,7 @@
 }
 
 #about_section .about_text {
-	width:60%;
+	width:65%;
 }
 
 
@@ -187,8 +187,8 @@
 	/* justify-content: left;
 	align-items: center; */
 	float:left;
-	margin-left:15px;
-	margin-right:15px;
+	margin-left:4px;
+	margin-right:7px;
 }
 
 #about_section .contact_texte{
