@@ -2,6 +2,13 @@
     "projet":
     [
         {
+            "titre":"Data-Visualisation",
+            "date":"2022",
+            "description":"Tableau de bord pour la visualisation de données en utilisant la bibliothèque javascript d3",
+            "illustration":"resources/projet/data-visualisation.png",
+            "lien":"https://github.com/Antoine-Zurcher-Git/Data-Visualisation"
+        },
+        {
             "titre":"Portfolio",
             "date":"2022",
             "description":"Site internet one-page présentant mes projets informatiques, réalisé en HTML, CSS et JavaScript",
@@ -38,27 +45,27 @@
         {
             "titre": "MiniProjets Python",
             "date": "2018 - 2021",
-            "description": "Ce dépôt regroupe un ensemble de projets réalisé en Python : Jeu du Pendu, Base de Données, Aventure textuelle",
+            "description": "Ce dépôt regroupe un ensemble de projets réalisé en Python : jeu du Pendu, base de données, aventure textuelle",
             "illustration": "resources/projet/miniprojetpython.png",
             "lien":"https://github.com/Antoine-Zurcher-Git/MiniProjets_Python"
         },{
             "titre": "EChessL",
             "date":"2020",
-            "description":" Projet scolaire, Jeux d'échec integrant une intelligence artificielle permettant de jouer contre",
+            "description":" Projet scolaire, jeux d'échec integrant une intelligence artificielle permettant de jouer contre",
             "illustration":"resources/projet/EChessL.png",
             "lien":"https://gitlab.ec-lyon.fr/azurcher/echessl"
         },
         {
             "titre": "MiniProjets Java",
             "date": "2016-2020",
-            "description": "Ce dépôt regroupe un ensemble de projets réalisé en Java ou en Processing : Collection de Mini Jeux, Combat de civilisations, Jeu de l'araignée",
+            "description": "Ce dépôt regroupe un ensemble de projets réalisé en Java ou en Processing : collection de mini jeux, combat de civilisations, jeu de l'araignée",
             "illustration": "resources/projet/miniprojetjava.png",
             "lien":"https://github.com/Antoine-Zurcher-Git/MiniProjets_Java"
         },
         {
             "titre": "Loups et Moutons",
             "date": "2018",
-            "description": "Simulation d'une population de plante, de monton et de loups",
+            "description": "Simulation d'une population de plantes, de moutons et de loups",
             "illustration": "resources/projet/loups_et_moutons.png",
             "lien":"https://github.com/Antoine-Zurcher-Git/Loups_et_Moutons"
         },
