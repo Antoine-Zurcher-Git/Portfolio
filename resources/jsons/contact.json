@@ -18,14 +18,14 @@
         {
             "nom":"Mail",
             "logo":"resources/contact/Mail.svg",
-            "lien":"mailto: antoine.zurcher@gmail.com",
-            "text":"antoine.zurcher@gmail.com",
+            "lien":"mailto: ",
+            "text":"",
             "clicable":false
         },
         {
             "nom":"CV",
             "logo":"resources/contact/CV.svg",
-            "lien":"cv.pdf",
+            "lien":"",
             "text":"Curriculum Vitae",
             "clicable":true
         }
